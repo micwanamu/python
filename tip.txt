@@ -1,0 +1,1 @@
+po wejsciu w folder zapisz cmd zamiast sciezki i otworzy sie windows terminal slayyy
