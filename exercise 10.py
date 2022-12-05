@@ -30,8 +30,8 @@ luggage_weight = 30
 ##################################
 # Here write the condition
 
-condition = (country == "USA" or country == "EU") and (
-    money < 1000 and money > 100) and luggage_weight <= 20
+condition = (
+    country == "USA" or "EU") and 1000 <= money >= 100 and luggage_weight <= 20
 
 ##################################
 # OUTPUT
