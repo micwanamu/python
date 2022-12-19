@@ -10,6 +10,8 @@ x = int(input('Enter the first integer number'))
 y = int(input('Enter the second integer number'))
 z = int(input('Enter the third integer number'))
 
+'''
+
 if x == y == z:
     print("All of your numbers are equal.", x, y, z)
 elif x < y and x < z:
@@ -30,3 +32,13 @@ elif z == y:
     print("Two of your numbers are equal.", z, y)
 elif z == x:
     print("Two of your numbers are equal.", z, x)
+
+'''
+# correction
+
+if x < y and x < z:
+    print(x)
+elif y < z:
+    print(y)
+else:
+    print(z)
