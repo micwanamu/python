@@ -58,10 +58,3 @@ print(s5.index('i'))  # same function as find()
 print(s5.replace('i', 'B'))  # replaces all
 print(s5.replace('i', 'B', 1))  # replaces the first occurrence
 print(s5.replace('i', ''))  # removes all instances of i
-
-val1 = input('Enter number 1...')
-# let's assume,  2 was entered
-val2 = int(input('Enter number 2...'))
-# let's assume,  3 was entered
-
-print(val1*val2)

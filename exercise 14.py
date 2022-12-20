@@ -16,6 +16,9 @@ ternary operator
 
 '''
 
-x = input("PDF format checker. Enter the filname with its extension...")
-print("Your file is of type pdf") if 'pdf' in x else print(
+user_filename = input(
+    "PDF format checker. Enter the filename with its extension...")
+extension_name = user_filename.split(".", 1)[1]
+ex_lower = extension_name.lower()
+print("Your file is of type pdf") if ex_lower == 'pdf' else print(
     "Your file is not of type pdf")
