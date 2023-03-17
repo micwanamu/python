@@ -21,7 +21,7 @@ Expected result:
 '''
 
 sentence = "The robbed that smiles, steals something from the thief."
-sen = []
+dic = {}
 
 
 def most_freq_character(sentence):
@@ -33,12 +33,17 @@ def most_freq_character(sentence):
     Returns:
         List of tuples
     '''
-    sentence = sentence.replace(',', '').replace('.', '').split()
-    for letter in string:
-        sen.append(letter)
-        print(sen)
-    #word_length = {letter: len(letter) for letter in sentence}
-    # print(word_length)
+    for character in sentence:
+        sentence_new = sentence.replace('.', '').replace(
+            ',', '').replace(' ', '').lower()
+    tokens = list(sentence_new)
+    for characters in tokens:
+        if characters in dic:
+            dic[characters] += 1
+        else:
+            dic[characters] = 1
+    list_tup = [(k, v) for k, v in dic.items()]
+    print(list_tup)
 
 
-print(most_freq_character(sen))
+print(most_freq_character(sentence))
