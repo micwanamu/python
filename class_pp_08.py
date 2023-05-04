@@ -7,33 +7,33 @@ print(L1)  # a list whose first element is the name of the file
 
 # you can add other elements to the list (in windows terminal): python class_pp_08.py arg1 arg2 agr3
 
-# sentence = sys.argv[1]  # first argument, argument 0 is name of the file
-#print(len(sentence), "this is the length of the first argument")
+sentence = sys.argv[1]  # first argument, argument 0 is name of the file
+print(len(sentence), "this is the length of the first argument")
 # putting an item in double quotes makes it the argument 1 (I think)
 
-#n1 = float(sys.argv[1])
-#n2 = float(sys.argv[2])
-# print(n1*n2)
+n1 = float(sys.argv[1])
+n2 = float(sys.argv[2])
+print(n1*n2)
 
 
-#vowels = 'aeiou'
-#word = sys.argv[3]
-#vowelcount = 0
-# for letter in word:
-#    if letter in vowels:
-#        vowelcount += 1
-#print(f'There are {vowelcount} vowels in the word.')
+vowels = 'aeiou'
+word = sys.argv[3]
+vowelcount = 0
+for letter in word:
+    if letter in vowels:
+        vowelcount += 1
+print(f'There are {vowelcount} vowels in the word.')
 
 # working on files
-# outFile = open('testfile.text', 'w')  # has to be in the same folder
+outFile = open('testfile.txt', 'w')  # has to be in the same folder
 # r for reading (default)
 # w for writing; creates a new file if it doesn't exist or truncates (replaces) the file if it exists
 # a for appending without truncating or creates a new file
 # t for text mode (default); no need to declare it
 
-#outFile.write('some text!\n')
-# outFile.read()
-# outFile.close()
+outFile.write('some text!\n')
+outFile.read()
+outFile.close()
 
 
 # sample_file = open(
