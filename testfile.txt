@@ -1,3 +1,12 @@
 some text
 ... and even more
 ... and EVEN more!
+
+The result of division 1 \ 2 = 0.5
+The result of division 3 / 4 = 0.75
+The result of division 2 \ 3 = 0.6666666666666666
+The result of division 4 / 1 = 4.0
+The result of division 1 \ 1 = 1.0
+The result of division 2 / 2 = 1.0
+The result of division 1 \ 1 = 1.0
+The result of division 2 / 2 = 1.0
