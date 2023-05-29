@@ -20,10 +20,10 @@ class Animal(object):  # constructor - initializes variables
         return "Animal name: "+str(self.name)+", age:"+str(self.age)
 
 
-animec = Animal(10)
-animec.name = "Animec"
-animec.age = 12  # overrides the original age
-print(animec)
+# animec = Animal(10)
+# animec.name = "Animec"
+# animec.age = 12  # overrides the original age
+# print(animec)
 
 # child class
 
